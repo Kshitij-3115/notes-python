@@ -1,0 +1,78 @@
+#  fill-in-blanks/true-false notes to improve remembering  
+#  topic : python 
+
+ ---------------------- 13-07-2021 18:03:32 --------------------------
+1.  python data types  
+    - text :- ___ 
+    - numaric :-  ___, ___, ___ 
+    - mapping :- ___ 
+    - set :- ___, ___
+    - sequence :- ___, ___, ___ 
+    - boolean :- ___
+    - binary :- ___, ___, ___ 
+ --------------------- 14-07-2021 14:25:06 ---------------------------
+ 1. python strings 
+    - like other languages strings in py are arrays of ___ representing ___ characters. 
+    - python doesn't have character data type -> True or False. 
+    - to get length of string use ___(str) function.   
+    - to check certain phrase or character is present or not present in str we can use ___, ___ keywords respectively.
+    - slice 'llo' from x = 'Hello, World' ->  print(x[_:_])   #extra : do the same using negative indexing
+    - to convert s upper/lower case  -> s.___(), s.___() 
+    - to remove whitespaces from start and end -> s.___(), to split into substrings when x incountered-> s.___(x) 
+    - to replace substring p occurences of s1 from s with s2 -> s.___(s1,s2,p), concatenate using ___ operator. 
+    - we cannot combine string and numbers using +, but we can with  -> s.___(arguments)  --> string s will gets formated using arguments. 
+    - during formatting of string s, original s changes -> True or False 
+    - escape characters are used to insert 'illegal' characters in string. -> True or False
+    - all string methods return new values, they do not change original string -> True or False 
+
+ ----------------------- 15-07-2021 10:10:12 ----------------------------  
+ 1. string methods (String : s) 
+    - first letter to uppercase                                ->  s.___() 
+    - all string to lowercase                                  ->  s.___(), s.___() 
+    - center s (length:y) with x as fill character             ->  s.___(y, x) 
+    - count how much occurences of value v, b/w range x to y   ->  s.___(v, x, y)  
+    - encode s using the specified encoding, and error options ->  s.___(___="___", ___="___") 
+      6 options for error parameter -> ___, ___, ___, ___, ___, ___  
+    - check if range (x to y) in s ends with specified value   ->  s.___(___, ___, ___)  
+    - expand tab size in string s                              ->  s.___(___)   
+    - search s for a value v in index range x to y             ->  s.___(___, ___, ___)  #extra : is there any another method ? 
+    - to format a string s, with specified list of values      ->  s.___(___, ___, ___, ...., ___) #extra : are these values key-value or just values
+    - :< :> :^ := :+ :- : (:space) :, :_ :b :c :d :e :E :f :F :g :G :o :x :X :n :% 
+      write descriptions of above formatting types. #reference : https://www.w3schools.com/python/ref_string_format.asp 
+
+ -----------------------  16-07-2021 18:09:25 ---------------------------------
+ 1. string methods (contd) (String : s )
+    - check that all characters in string are alphanumaric                    -> s.___()  
+    - check that all characters in string are alphabets                       -> s.___()  
+    - check that all characters in string are decimals                        -> s.___()  
+    - check that all characters in string are digits                          -> s.___() 
+    - check that string is an identifier or not                               -> s.___()   
+    - check all characters in string are lower case                           -> s.___() 
+    - check all characters in string are upper case                           -> s.___()   
+    - check all characters in string are numaric                              -> s.___()    
+    - check that all words in string are starting with                        -> s.___()  
+      uppercase letter, and other letters are uppercase only (title property) 
+    - join all items of iterable in a string with string x as separator       -> x.___() 
+    - left align string s of length p with specified character x as           -> s.___(___, ___) 
+      fill character                                                              
+    - right align string s of length p with specified character x as          -> s.___(___, ___)  
+      fill character
+    - trim string from left side with c as a set of characters to remove      -> s.___(___) 
+      during trimming (space is default) 
+    - trim string from right side with c as a set of characters to remove     -> s.___(___)  
+      during trimming (space is default) 
+    - split string [ s = a + b + c ; a,b,c may be any strings ] into touple   -> s.___(___)     #extra : which method you will use if we want last occurence of b to be used ? 
+      such that touple = (a,b,c) [search first occurence of b]                                  
+    - describe 'maketrans(x,y,z)' and 'translate(trans_table)' methods        #reference : https://www.w3schools.com/python/ref_string_maketrans.asp
+    - search string for specified value and return last occurence position    -> s.___(), s.___() 
+    - convert first character of each word to upper case                      -> s.___() 
+    - fill zeros at the biginning so that str length should x                 -> s.___(x)
+    - check if index range (x to y) starts with specified value v             -> s.___(v, ___, ___) 
+    - split a string into a list, using a specified separator x               -> s.___(x, y)      #extra : method if want splits starts from end ? 
+      and maximum splits as y  [start from left] 
+    - split string at line breaks                                             -> s.___(___)          #extra : what is the parameter used here
+    - convert lower to upper and upper to lower in string                     -> s.___()          
+
+
+
+ 
